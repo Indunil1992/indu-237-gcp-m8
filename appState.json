@@ -1,0 +1,94 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "ed63fc3d-a547-4ef4-b3fd-21fccbaebbbe": {
+        "id": "ed63fc3d-a547-4ef4-b3fd-21fccbaebbbe",
+        "parent": null,
+        "name": "indu-237-gcp-m8.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "indu-237-gcp-m8.js",
+        "cursor": {
+          "lineNumber": 2,
+          "column": 5
+        },
+        "config": {
+          "runtime": "nodejs8",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "triggerType": 0,
+          "name": "indu237GcpM8"
+        },
+        "triggers": [
+          {
+            "resourceName": "http-trigger",
+            "config": {}
+          }
+        ],
+        "lastUpdated": 1615194483507
+      },
+      "1e4a292b-9d4f-4152-adda-6e3706bc73f5": {
+        "id": "1e4a292b-9d4f-4152-adda-6e3706bc73f5",
+        "parent": null,
+        "name": "index.js",
+        "type": "JS_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": false,
+        "filePath": "index.js"
+      },
+      "501d6372-ab0c-41d1-a00b-98c2704211f2": {
+        "id": "501d6372-ab0c-41d1-a00b-98c2704211f2",
+        "parent": null,
+        "name": "main.py",
+        "type": "PYTHON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": false,
+        "filePath": "main.py"
+      }
+    },
+    "openFiles": [
+      "ed63fc3d-a547-4ef4-b3fd-21fccbaebbbe"
+    ],
+    "currentFileId": "ed63fc3d-a547-4ef4-b3fd-21fccbaebbbe",
+    "resources": {
+      "http-trigger": {
+        "name": "http-trigger",
+        "type": "http-trigger",
+        "config": {}
+      }
+    },
+    "customTemplate": {
+      "syntax": "JSON",
+      "overrideDefault": false,
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "sigmaVersion": "1.6.1",
+    "projectName": "indu-237-gcp-m8",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east1",
+    "platform": "GCP",
+    "language": "nodejs",
+    "platformRegions": {},
+    "lastSave": 1615200090292
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "indu-237-gcp-m8",
+      "url": "https://github.com/Indunil1992/indu-237-gcp-m8"
+    }
+  }
+}
