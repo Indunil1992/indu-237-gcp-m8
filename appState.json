@@ -15,7 +15,7 @@
           "column": 5
         },
         "config": {
-          "runtime": "nodejs8",
+          "runtime": "nodejs14",
           "handler": "handler",
           "timeout": 60,
           "memory": 128,
@@ -28,7 +28,7 @@
             "config": {}
           }
         ],
-        "lastUpdated": 1615194483507
+        "lastUpdated": 1632205423171
       },
       "1e4a292b-9d4f-4152-adda-6e3706bc73f5": {
         "id": "1e4a292b-9d4f-4152-adda-6e3706bc73f5",
@@ -49,6 +49,16 @@
         "children": [],
         "isRemovable": false,
         "filePath": "main.py"
+      },
+      "62ca9c02-d604-41cc-a2fd-97871a55553f": {
+        "id": "62ca9c02-d604-41cc-a2fd-97871a55553f",
+        "parent": null,
+        "name": "package.json",
+        "type": "JSON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "package.json"
       }
     },
     "openFiles": [
@@ -65,16 +75,40 @@
     "customTemplate": {
       "syntax": "JSON",
       "overrideDefault": false,
-      "dialect": null,
+      "dialect": "Deployment Manager",
       "definitions": null
     },
-    "envVariables": [],
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "ejii",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": true
+      },
+      {
+        "lambdaId": "all",
+        "varKey": "dasd",
+        "varValue": "3:3:3",
+        "shouldPersist": true,
+        "displayOnly": false,
+        "editable": true
+      }
+    ],
     "packageJSON": {
-      "dependencies": {}
+      "dependencies": {
+        "npn": {
+          "name": "npn",
+          "version": "0.0.1",
+          "dev": false,
+          "language": "nodejs"
+        }
+      }
     }
   },
   "PROJECT_META": {
-    "sigmaVersion": "1.6.1",
+    "sigmaVersion": "1.9.4",
     "projectName": "indu-237-gcp-m8",
     "projectDescription": "",
     "projectVersion": "1.0.0",
@@ -82,7 +116,7 @@
     "platform": "GCP",
     "language": "nodejs",
     "platformRegions": {},
-    "lastSave": 1615200090292
+    "lastSave": 1632210141427
   },
   "VCS_STATE": {
     "provider": "GitHub",

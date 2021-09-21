@@ -1,6 +1,5 @@
 {
-  "name": "indu-237-gcp-m8",
-  "version": "1.0.0",
-  "dependencies": {},
-  "devDependencies": {}
+    "dependencies": {
+        "npn": "0.0.1"
+    }
 }
